@@ -8,15 +8,15 @@ const Room = () => {
                 <div className='grow p-0 flex'>
                     <ScreenShare />
                     <Video />
-                </div>
-                <div className='flex-grow-4 m-2 p-5 border-slate-400 rounded-lg border-1'>
-                    <Chat />
                     <Board />
                 </div>
+                <div className='flex-grow-4 m-2 p-3 border-slate-400 rounded-lg border-1 bg-slate-200'>
+                    <Chat />
+                </div>
             </div>
-            <div className='w-screen h-[10vh] bg-yellow-200'>
-                <Settings />
+            <div className='w-screen h-[10vh] bg-yellow-200 flex'>
                 <Attendants />
+                <Settings />
             </div>
         </div>
     )
