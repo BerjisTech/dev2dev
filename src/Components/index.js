@@ -1,1 +1,7 @@
 export { default as Navigation } from './Navigation/Navigation'
+export { default as Attendants } from './Room/Attendants'
+export { default as Board } from './Room/Board'
+export { default as Chat } from './Room/Chat'
+export { default as ScreenShare } from './Room/ScreenShare'
+export { default as Video } from './Room/Video'
+export { default as Settings } from './Room/Settings'
